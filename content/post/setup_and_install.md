@@ -29,7 +29,7 @@ To get started writing and running python code, you have to install python.  The
 
 Go to a terminal and type or copy and paste the following commands one at a time.
 
-```
+```bash
 brew update
 brew install pyenv
 brew install pyenv-virtualenv
@@ -41,7 +41,7 @@ There are a few last steps we have to do now that those two programs are install
 
 Go to a terminal and type or copy and paste the following commands.
 
-```
+```bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
@@ -56,7 +56,7 @@ Congrats for making it this far.  Now for the fun part.  Lets install python.
 ### Install Python 3.7.4
 Now all your hard work is about to pay off.  Lets install python.  Open your terminal if it isn't already.  Then type or copy and paste the following commands into it.
 
-```
+```bash
 pyenv install 3.7.4
 ```
 
@@ -66,7 +66,7 @@ After python is finished installing, lets setup a project folder and test it out
 
 In the terminal execute the following commands.
 
-```
+```bash
 cd ~
 mkdir -p ~/Projects/python/firstapp
 cd ~/Projects/python/firstapp

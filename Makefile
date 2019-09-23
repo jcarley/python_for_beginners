@@ -1,7 +1,7 @@
 
 build:
-	hugo
+	@rm -rf public
+	@hugo
 
-deploy:
-	hugo --gc --minify
-
+run:
+	@hugo server -D
