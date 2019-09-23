@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Python for Beginner Programmers"
+theme = "paperback"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
