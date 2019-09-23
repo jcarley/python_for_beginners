@@ -3,6 +3,15 @@ languageCode = "en-us"
 title = "Python for Beginner Programmers"
 theme = "paperback"
 
+[params]
+authorname = "Jefferson Carley"
+
+GithubUsername = "jcarley"
+
+# default: undefined
+TwitterUsername = "jeffersoncarley"
+
+
 # For search functionality
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
