@@ -1,5 +1,5 @@
 ---
-title: "Getting_familar_with_python"
+title: "Getting familar with python"
 date: 2019-09-28T11:14:58-05:00
 draft: false
 ---
